@@ -1,5 +1,7 @@
 # path_planning_algorithm
 A* Algorithm
+
+
 The chosen path planning algorithm for this task is the A* (A-star) algorithm, which is one of the most widely used algorithms for pathfinding and graph traversal. A* is an informed search algorithm that combines the strengths of Dijkstra's algorithm and greedy best-first search. It uses a heuristic to estimate the cost to reach the goal from a given node, making it more efficient in finding the shortest path compared to uninformed search algorithms.
 
 Suitability for the Task:
@@ -33,3 +35,9 @@ Publishing: The path is published on a dedicated topic /computed_path for visual
 Visualization
 RViz Configuration: An RViz configuration file is used to set up the visualization environment. This file specifies the map and the path topic to visualize the computed path.
 Launch File: The launch file starts the map server to publish the map data, the path planning node to compute and publish the path, and RViz to visualize the path.
+
+
+
+
+Steps to run
+git 
