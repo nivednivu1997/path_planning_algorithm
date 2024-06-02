@@ -40,4 +40,9 @@ Launch File: The launch file starts the map server to publish the map data, the 
 
 
 Steps to run
-git 
+1) git clone https://github.com/nivednivu1997/path_planning_algorithm.git
+2) cd ros2_ws
+3) colcon build
+4) source install setup.bash
+5) ros2 launch path_planning path_planner.launch.xml
+
