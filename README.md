@@ -2,7 +2,7 @@
 A* Algorithm
 
 
-The chosen path planning algorithm for this task is the A* (A-star) algorithm, which is one of the most widely used algorithms for pathfinding and graph traversal. A* is an informed search algorithm that combines the strengths of Dijkstra's algorithm and greedy best-first search. It uses a heuristic to estimate the cost to reach the goal from a given node, making it more efficient in finding the shortest path compared to uninformed search algorithms.
+The chosen path planning algorithm is the A* (A-star) algorithm, which is one of the most widely used algorithms for pathfinding and graph traversal. A* is an informed search algorithm that combines the strengths of Dijkstra's algorithm and greedy best-first search. It uses a heuristic to estimate the cost to reach the goal from a given node, making it more efficient in finding the shortest path compared to uninformed search algorithms.
 
 Suitability for the Task:
 
