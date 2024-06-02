@@ -1,0 +1,36 @@
+[0.407s] Invoking command in '/home/thedush/ros2_ws/src/path_planning': PYTHONPATH=/home/thedush/ros2_ws/build/path_planning/prefix_override:/home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/thedush/ros2_ws/build/path_planning/build install --record /home/thedush/ros2_ws/build/path_planning/install.log --single-version-externally-managed install_data
+[0.569s] running egg_info
+[0.570s] creating ../../build/path_planning/path_planning.egg-info
+[0.570s] writing ../../build/path_planning/path_planning.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt
+[0.570s] writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt
+[0.570s] writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt
+[0.570s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[0.571s] reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[0.572s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.572s] creating /home/thedush/ros2_ws/build/path_planning/build
+[0.572s] creating /home/thedush/ros2_ws/build/path_planning/build/lib
+[0.572s] creating /home/thedush/ros2_ws/build/path_planning/build/lib/path_planning
+[0.572s] copying path_planning/path_planner.py -> /home/thedush/ros2_ws/build/path_planning/build/lib/path_planning
+[0.572s] copying path_planning/__init__.py -> /home/thedush/ros2_ws/build/path_planning/build/lib/path_planning
+[0.572s] running install
+[0.573s] running install_lib
+[0.574s] creating /home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.574s] copying /home/thedush/ros2_ws/build/path_planning/build/lib/path_planning/path_planner.py -> /home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.574s] copying /home/thedush/ros2_ws/build/path_planning/build/lib/path_planning/__init__.py -> /home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.574s] byte-compiling /home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages/path_planning/path_planner.py to path_planner.cpython-310.pyc
+[0.576s] byte-compiling /home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages/path_planning/__init__.py to __init__.cpython-310.pyc
+[0.576s] running install_data
+[0.576s] creating /home/thedush/ros2_ws/install/path_planning/share/ament_index
+[0.576s] creating /home/thedush/ros2_ws/install/path_planning/share/ament_index/resource_index
+[0.576s] creating /home/thedush/ros2_ws/install/path_planning/share/ament_index/resource_index/packages
+[0.576s] copying resource/path_planning -> /home/thedush/ros2_ws/install/path_planning/share/ament_index/resource_index/packages
+[0.576s] copying package.xml -> /home/thedush/ros2_ws/install/path_planning/share/path_planning
+[0.576s] creating /home/thedush/ros2_ws/install/path_planning/share/path_planning/launch
+[0.576s] copying launch/path_planner.launch -> /home/thedush/ros2_ws/install/path_planning/share/path_planning/launch
+[0.576s] creating /home/thedush/ros2_ws/install/path_planning/share/path_planning/rviz
+[0.576s] error: can't copy 'rviz/path_planner.rviz': doesn't exist or not a regular file
+[0.592s] Invoked command in '/home/thedush/ros2_ws/src/path_planning' returned '1': PYTHONPATH=/home/thedush/ros2_ws/build/path_planning/prefix_override:/home/thedush/ros2_ws/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/thedush/ros2_ws/build/path_planning/build install --record /home/thedush/ros2_ws/build/path_planning/install.log --single-version-externally-managed install_data

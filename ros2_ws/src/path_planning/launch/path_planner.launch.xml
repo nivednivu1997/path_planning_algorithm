@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="path_planning" exec="path_planner" output="screen">
+        <param name="map_yaml_path" value="install/path_planning/share/path_planning/maps/map.yaml" />
+    </node>
+    <node pkg="rviz2" exec="rviz2" args="-d install/path_planning/share/path_planning/rviz/plan.rviz" output="screen" />
+</launch>

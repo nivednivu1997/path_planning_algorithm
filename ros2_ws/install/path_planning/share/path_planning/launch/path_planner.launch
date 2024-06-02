@@ -1,0 +1,16 @@
+<launch>
+    <!-- Map Server -->
+    <node pkg="nav2_map_server" exec="map_server" name="map_server" output="screen">
+        <param name="yaml_filename" value="install/path_planning/share/path_planning/maps/map.yaml"/>
+        <param name="map_topic" value="map"/>
+    </node>
+
+    <!-- Path Planner Node -->
+    <node pkg="path_planning" exec="path_planner" output="screen">
+        <param name="map_yaml_path" value="install/path_planning/share/path_planning/maps/map.yaml"/>
+    </node>
+
+    <!-- RViz -->
+    <node pkg="rviz2" exec="rviz2" args="-d install/path_planning/share/path_planning/rviz/plan.rviz" output="screen"/>
+</launch>
+
